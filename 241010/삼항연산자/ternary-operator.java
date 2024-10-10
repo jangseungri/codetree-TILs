@@ -6,10 +6,6 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int score = sc.nextInt();
 
-        if(score == 100) {
-            System.out.print("pass");
-        } else {
-            System.out.print("failure");
-        }
+        System.out.print(score == 100 ? "pass" : "failure");
     }
 }
