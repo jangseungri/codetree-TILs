@@ -8,7 +8,6 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        a = 2;
         System.out.print(a + ":" + b);
     }
 }
