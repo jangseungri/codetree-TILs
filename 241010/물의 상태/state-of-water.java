@@ -8,7 +8,7 @@ public class Main {
 
         if(tem < 0) {
             System.out.print("ice");
-        } else if(tem > 100) {
+        } else if(tem >= 100) {
             System.out.print("vapor");
         } else {
             System.out.print("water");
