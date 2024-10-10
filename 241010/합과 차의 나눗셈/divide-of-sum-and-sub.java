@@ -6,8 +6,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-        double s = a + b;
-        double d = a - b;
-        System.out.printf("%.2f", (s / d));
+
+        System.out.printf("%.2f", (double)(a + b) / (a - b));
     }
 }
