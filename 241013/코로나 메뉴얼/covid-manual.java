@@ -12,9 +12,7 @@ public class Main {
         int c_t = sc.nextInt();
 
         if(a_s == 'Y' && a_t >= 37) {
-            if(b_s == 'Y' && b_t >= 37) {
-                System.out.print('E');
-            } else if(c_s == 'Y' && c_t >= 37){
+            if((b_s == 'Y' && b_t >= 37) || (c_s == 'Y' && c_t >= 37)) {
                 System.out.print('E');
             } else {
                 System.out.print('N');
