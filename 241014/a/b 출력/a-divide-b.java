@@ -7,10 +7,9 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        if((a / b) == 0) {
-            System.out.print(a / b + ".");
-            a *= 10;
-        }
+        System.out.print(a / b + ".");
+        a = a % b;
+        a *= 10;
 
         for(int i = 1; i < 21; i++) {
             System.out.print(a / b);
