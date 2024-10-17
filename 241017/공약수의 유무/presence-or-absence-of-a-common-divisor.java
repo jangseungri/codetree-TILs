@@ -8,7 +8,7 @@ public class Main {
         int b = sc.nextInt();
         boolean satisfied = false;
 
-        for(int i = 1; i <= b; i++) {
+        for(int i = a; i <= b; i++) {
             if(1920 % i == 0 && 2880 % i == 0)
                 satisfied = true;
         }
