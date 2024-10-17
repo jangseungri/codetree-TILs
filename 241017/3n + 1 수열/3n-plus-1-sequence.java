@@ -8,6 +8,9 @@ public class Main {
         int cnt = 0;
 
         while(true) {
+            if(N == 1)
+                break;
+                
             if(N % 2 == 0) {
                 N /= 2;
                 cnt++;
@@ -16,9 +19,6 @@ public class Main {
                 N = (N * 3) + 1;
                 cnt++;
             }
-            
-            if(N == 1)
-                break;
         } 
         
         System.out.print(cnt);
