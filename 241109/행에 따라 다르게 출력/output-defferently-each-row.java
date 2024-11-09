@@ -8,17 +8,13 @@ public class Main {
         int cnt = 0;
 
         for(int i = 0; i < n; i++) {
-            if(i % 2 == 0) {
-                for(int j = 0; j < n; j++) {
+            for(int j = 0; j < n; j++) {
+                if(i % 2 == 0)
                     cnt++;
-                    System.out.print(cnt + " ");
-                }
-            }
-            else {
-                for(int j = 0; j < n; j++) {
+                else
                     cnt += 2;
-                    System.out.print(cnt + " ");
-                }
+                
+                System.out.print(cnt + " ");
             }
             System.out.println();
         }
