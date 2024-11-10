@@ -12,9 +12,9 @@ public class Main {
         int sum = 0;
 
         while(a > 1) {
-            int result = a % 4;
+            int result = a % b;
             countArr[result]++;
-            a /= 4;
+            a /= b;
         }
 
         for(int i = 0; i < b; i++) {
